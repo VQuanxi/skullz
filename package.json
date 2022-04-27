@@ -1,15 +1,23 @@
 {
-  "name": "rest-api",
+  "name": "skullz",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VQuanxi/skullz.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VQuanxi/skullz/issues"
+  },
+  "homepage": "https://github.com/VQuanxi/skullz#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.18.0"
   }
 }
